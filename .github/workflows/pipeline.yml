@@ -14,4 +14,4 @@ jobs:
       - name: Verificar arquivos
         run: |
           if (Test-Path "index.html") { Write-Output "index.html encontrado" } else { throw "index.html não encontrado" }
-          if (Test-Path "style.css") { Write-Output "style.css encontrado" } else { throw "style.css não encontrado" }
+          if (Test-Path "styles.css") { Write-Output "style.css encontrado" } else { throw "style.css não encontrado" }
